@@ -1,0 +1,39 @@
+{
+  "name": "tdd-es6-babel-jest",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "semistandard-format -w ./src/**/*.spec.js",
+    "pretest": "npm run format",
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watch --onlyChanged --notify"
+  },
+  "license": "MIT",
+  "jest": {
+    "bail": true,
+    "verbose": true,
+    "coverageReporters": [
+      "text-summary",
+      "lcov",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "assert": "1.4.1",
+    "growl": "1.10.2",
+    "jest": "20.0.4",
+    "pre-commit": "1.2.2",
+    "semistandard-format": "3.0.0"
+  }
+}
