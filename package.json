@@ -4,7 +4,7 @@
   "scripts": {
     "format": "semistandard-format -w ./src/**/*.spec.js",
     "pretest": "npm run format",
-    "test": "jest",
+    "test": "jest --ci --roots ./src",
     "test:coverage": "npm test -- --coverage",
     "test:watch": "npm test -- --watch --onlyChanged --notify"
   },
