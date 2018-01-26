@@ -2,7 +2,9 @@
   "name": "tdd-es6-babel-jest",
   "version": "1.0.0",
   "scripts": {
-    "format": "semistandard-format -w ./src/**/*.spec.js",
+    "format": "prettier --single-quote --write ./src/**/*.js",
+    "lint": "eslint ./src",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --ci --roots ./src",
     "test:coverage": "npm test -- --coverage",
     "test:watch": "npm test -- --watch --onlyChanged --notify"
@@ -30,9 +32,14 @@
   ],
   "devDependencies": {
     "assert": "1.4.1",
-    "growl": "1.10.2",
-    "jest": "20.0.4",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "growl": "1.10.3",
+    "jest": "22.1.4",
     "pre-commit": "1.2.2",
-    "semistandard-format": "3.0.0"
+    "prettier": "^1.10.2"
   }
 }
