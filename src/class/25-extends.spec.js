@@ -21,7 +21,7 @@ describe('classes can inherit from another', () => {
     it('class can extend `null`, not an instance of Object', () => {
       class NullClass extends null {
         constructor() {
-          return Object.create(null)
+          return Object.create(null);
         }
       }
 
