@@ -37,7 +37,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
-    "growl": "1.10.4",
+    "growl": "1.10.5",
     "jest": "22.4.3",
     "pre-commit": "1.2.2",
     "prettier": "^1.10.2"
