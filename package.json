@@ -32,14 +32,14 @@
   ],
   "devDependencies": {
     "assert": "1.4.1",
-    "eslint": "^4.16.0",
+    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^6.0.0",
-    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
     "growl": "1.10.5",
     "jest": "22.4.3",
     "pre-commit": "1.2.2",
-    "prettier": "^1.10.2"
+    "prettier": "^1.12.1"
   }
 }
