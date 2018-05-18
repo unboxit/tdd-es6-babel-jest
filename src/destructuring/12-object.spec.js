@@ -11,11 +11,15 @@ describe('destructuring objects', () => {
   describe('nested', () => {
     it('multiple objects', () => {
       const magic = { first: 23, second: 42 };
-      const { magic: { second } } = { magic };
+      const {
+        magic: { second }
+      } = { magic };
       assert.equal(second, 42);
     });
     it('object and array', () => {
-      const { z: [, x] } = { z: [23, 42] };
+      const {
+        z: [, x]
+      } = { z: [23, 42] };
       assert.equal(x, 42);
     });
     it('array and object', () => {
