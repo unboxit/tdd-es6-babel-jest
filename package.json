@@ -33,13 +33,13 @@
   "devDependencies": {
     "assert": "1.4.1",
     "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-promise": "^3.8.0",
     "growl": "1.10.5",
     "jest": "23.6.0",
     "pre-commit": "1.2.2",
-    "prettier": "^1.12.1"
+    "prettier": "^1.15.3"
   }
 }
