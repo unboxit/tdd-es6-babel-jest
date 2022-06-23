@@ -1,5 +1,6 @@
 ### tdd-es6-babel-jest 
-[![Build Status](https://travis-ci.org/unboxit/tdd-es6-babel-jest.svg?branch=master)](https://travis-ci.org/unboxit/tdd-es6-babel-jest)
+
+[![Node.js CI](https://github.com/unboxit/tdd-es6-babel-jest/actions/workflows/node.js.yml/badge.svg)](https://github.com/unboxit/tdd-es6-babel-jest/actions/workflows/node.js.yml)
 
 [![Codacy Security Scan](https://github.com/unboxit/tdd-es6-babel-jest/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/unboxit/tdd-es6-babel-jest/actions/workflows/codacy-analysis.yml)
 
