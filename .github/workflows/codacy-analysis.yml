@@ -21,7 +21,7 @@ on:
 jobs:
   codacy-security-scan:
     name: Codacy Security Scan
-    runs-on: self-hosted
+    runs-on: [ubuntu-latest, self-hosted]
     steps:
       # Checkout the repository to the GitHub Actions runner
       - name: Checkout code
