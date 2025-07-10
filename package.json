@@ -40,7 +40,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "growl": "1.10.5",
     "jest": "^30.0.4",
-    "jest-environment-jsdom": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.4",
     "pre-commit": "1.2.2",
     "prettier": "^3.6.2"
   }
