@@ -48,4 +48,4 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
-          ategory: sarif_file
+          category: sarif_file
