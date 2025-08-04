@@ -42,7 +42,18 @@ jobs:
           # Force 0 exit code to allow SARIF file generation
           # This will handover control about PR rejection to the GitHub side
           max-allowed-issues: 2147483647
-
+      
+      # Merge SARIF file before upload on single file  
+      - name: Merge SARIF files (if needed)
+        if: always()  # Adjust as needed
+        run: |
+          ls *.sarif || exit 0
+          if [ $(ls *.sarif | wc -l) -gt 1 ]; then
+            jq -s '{version:.[0].version, runs:(map(.runs) | add)}' *.sarif > merged.sarif
+            mv merged.sarif results.sarif
+          else
+            mv *.sarif results.sarif
+          fi
       # Upload the SARIF file generated in the previous step
       - name: Upload SARIF results file
         uses: github/codeql-action/upload-sarif@main
