@@ -37,7 +37,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-promise": "^7.3.0",
     "growl": "1.10.5",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
